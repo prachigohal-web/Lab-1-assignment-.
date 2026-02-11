@@ -56,17 +56,7 @@ function removeEmpty() {
   if (empty) empty.remove();
 }
 
-/* DOM Demo */
-document.getElementById("htmlDemo").innerHTML =
-  "<strong>Bold Text</strong> with spaces";
 
-document.getElementById("textDemo").innerText =
-  "<strong>Bold Text</strong> with spaces";
-
-document.getElementById("contentDemo").textContent =
-  "<strong>Bold Text</strong> with spaces";
-
-/* Key Press */
 document.addEventListener("keydown", (e) => {
   document.getElementById("keyPress").innerText =
     "You pressed: " + e.key;
